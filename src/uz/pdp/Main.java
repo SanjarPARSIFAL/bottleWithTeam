@@ -16,7 +16,7 @@ public class Main {
                     
                     """);
             System.out.println(GenerateBottle.bottle);
-            switch (Input.INT("command")){
+            switch (Input.INT("command: ")){
                 case 1 -> {
                     GenerateBottle.addWater();
                 }
