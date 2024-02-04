@@ -15,12 +15,12 @@ public class GenerateBottle {
         }
     }
     public static void pourWater(){
-        int x = Input.INT("Qancha suv to'kmoqchisiz:");
+        int x = Input.INT("amountWater : ");
         if(bottle.getAmount()<x){
-            System.out.println("Buncha suv mavjud emas.");
+            System.out.println("Try again.");
             return;
         }
         bottle.setAmount(bottle.getAmount()-x);
-        System.out.println("Bajarildi.");
+        System.out.println("Success!.");
     }
 }
