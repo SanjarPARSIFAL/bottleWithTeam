@@ -6,11 +6,12 @@ import uz.pdp.utils.Input;
 public class GenerateBottle {
     public static Bottle bottle = new Bottle(0);
     public static void addWater(){
-        int x = Input.INT("amountWater : ");
+        int x = Input.INT("AmountWater : ");
         int amount = x + bottle.getAmount();
         if(amount > bottle.getSize()){
-            System.out.println("bottle is Ful !!!");
+            System.out.println("Bottle is Full !!!");
         }else{
+            System.out.println("Success addWater !!!");
             bottle.setAmount(amount);
         }
     }
