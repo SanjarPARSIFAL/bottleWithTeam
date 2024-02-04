@@ -9,7 +9,7 @@ public class GenerateBottle {
         int x = Input.INT("Amount of Water : ");
         int amount = x + bottle.getAmount();
         if(amount > bottle.getSize()){
-            System.out.println("Bottle is Full !!!");
+            System.out.println("Try again");
         }else{
             System.out.println("success!");
             bottle.setAmount(amount);
