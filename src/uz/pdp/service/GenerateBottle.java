@@ -16,12 +16,12 @@ public class GenerateBottle {
         }
     }
     public static void pourWater(){
-        int x = Input.INT("amountWater : ");
+        int x = Input.INT("AmountWater : ");
         if(bottle.getAmount()<x){
             System.out.println("Try again.");
             return;
         }
         bottle.setAmount(bottle.getAmount()-x);
-        System.out.println("Success!.");
+        System.out.println("Success add Water !!!.");
     }
 }
