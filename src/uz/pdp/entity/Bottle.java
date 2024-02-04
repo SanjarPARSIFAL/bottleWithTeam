@@ -23,4 +23,9 @@ public class Bottle {
     public void setAmount(int amount) {
         this.amount = amount;
     }
+
+    @Override
+    public String toString() {
+        return amount + "/" + size;
+    }
 }
